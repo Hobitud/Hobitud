@@ -1,0 +1,1247 @@
+//Defineerime oletatavad kaalud.
+var KAALa40 = false;
+var KAAL41_50 = false;
+var KAAL51_60 = false;
+var KAAL61_70 = false;
+var KAAL71_80 = false;
+var KAAL81_90 = false;
+var KAAL91_100 = false;
+var KAAL100_110 = false;
+var KAAL111_120 = false;
+var KAAL121_130 = false;
+var KAALü130 = false;
+//Defineerime oletatavad vanused.
+var VANUS1 = false;
+var VANUS2 = false;
+var VANUS3 = false;
+var VANUS4 = false;
+var VANUS5 = false;
+var VANUS6 = false;
+var VANUS7 = false;
+var VANUS8 = false;
+var VANUS8 = false;
+var VANUS9 = false;
+var VANUS10 = false;
+var VANUS11 = false;
+var VANUS12 = false;
+var VANUS13 = false;
+var VANUS14 = false;
+var VANUS15 = false;
+var VANUS16 = false;
+var VANUS17 = false;
+var VANUS18 = false;
+var VANUSü18 = false;
+//Defineerime oletatava pikkuse.
+var PIKKUSa160 = false;
+var PIKKUS161_170 = false;
+var PIKKUS171_180 = false;
+var PIKKUS181_190 = false;
+var PIKKUS191_200 = false;
+var PIKKUS200_210 = false;
+var PIKKUSü210 = false;
+//Defineerime olemasolevate hobide jaoks vajaminevaid atribuute
+var SSEv = false;
+var SSEp = false;
+var SSEk = false;
+var SSEkvp = false;
+var SSEo = false;
+var SSEok = false;
+var SSEoko = false;
+
+var RATTAv = false;
+var RATTAp = false;
+var RATTAk = false;
+var RATTAkv = false;
+var RATTAkvp = false;
+var RATTAo = false;
+var RATTAok = false;
+var RATTAoko = false;
+
+var KARATEv = false;
+var KARATEp = false;
+var KARATEk = false;
+var KARATEkvp = false;
+var KARATEo = false;
+var KARATEok = false;
+var KARATEoko = false;
+
+
+
+alert("Küstitlusele vastates palume jälgida täpselt töökäsku, kun tegemist on algelise mudeliga, siis kõigel mida te sisestate on otsene mõju tulemusele.");
+alert("Järgnevatele küsimustele palume vastata ülima aususega");
+//Küsime kaalu.
+var K = prompt("Kui palju Te kaalute? Vastuses kasutage vaid numbreid!","Kilogrammides, ümardades täis kilodeni, nt. 86");
+//Küsime vanust.
+var V = prompt("Kui vana Te olete? Vastates kasutage vaid numbreid!","Vanus aastates, nt 15");
+//Küsime pikkust.
+var P = prompt("Kui pikk Te olete? Vastates kasutage vaid numbreid!","Vanus sentimeetrites, nt 186");
+//Küsime omadusi/atribuute 
+var O1 = confirm("Kas Teil on hea vastupidavus?");
+var O2 = confirm("Kas Te olete kiire?");
+var O3 = confirm("Kas Te olete füüsiliselt tugev?");
+var O4 = confirm("Kas Teil on hea koordinatsioon?");
+var O5 = confirm("Kas Te olete painduv?");
+var O6 = confirm("Kas Teil on hea loogiline mõtlemine?");
+var O7 = confirm("Kas Te olete täpse käega?");
+var O8 = confirm("Kas Teil on hea mälu?");
+var O9 = confirm("Kas Te olete hea kohanemisvõimega?");
+var O10 = confirm ("Kas Teil on kiire reaktsiooniaeg?");
+var O11 = confirm ("Kas Teil on hea tasakaal?");
+var O12 = confirm ("Kas Teil on hea tähelepanuvõime?");
+//Küsime eelnevaid kogemusi.
+var OK1 = confirm ("Kas Te olete minevikus tegelenud pikamaa jooksuga?");
+var OK2 = confirm ("Kas Te olete minevikus tegelenud sprindiga?");
+var OK3 = confirm ("Kas Te olete minevikus tegelenud täpsuslaskmisega?");
+var OK4 = confirm ("Kas Te olete minevikus tegelenud gümnastikaga?");
+var OK5 = confirm ("Kas Te olete minevikus tegelenud matkamisega?");
+var OK6 = confirm ("Kas Te olete minevikus tegelenud aaredjahiga?");
+var OK7 = confirm ("Kas Te olete minevikus tegelenud tantsimisega?");
+/* switch funktsioon pannes paika küsitletava kaalu tulevaseks kasutamiseks. */
+switch(K){
+    case "1":
+        KAALa40 = true;
+        break;
+    case "2":
+        KAALa40 = true;
+        break;
+    case "3":
+        KAALa40 = true;
+        break;
+    case "4":
+        KAALa40 = true;
+        break;
+    case "5":
+        KAALa40 = true;
+        break;
+    case "6":
+        KAALa40 = true;
+        break;
+    case "7":
+        KAALa40 = true;
+        break;
+    case "8":
+        KAALa40 = true;
+        break;
+    case "9":
+        KAALa40 = true;
+        break;
+    case "10":
+        KAALa40 = true;
+        break;
+    case "11":
+        KAALa40 = true;
+        break;
+    case "12":
+        KAALa40 = true;
+        break;
+    case "13":
+        KAALa40 = true;
+        break;
+    case "14":
+        KAALa40 = true;
+        break;
+    case "15":
+        KAALa40 = true;
+        break;
+    case "16":
+        KAALa40 = true;
+        break;
+    case "17":
+        KAALa40 = true;
+        break;
+    case "18":
+        KAALa40 = true;
+        break;
+    case "19":
+        KAALa40 = true;
+        break;
+    case "20":
+        KAALa40 = true;
+        break;
+    case "21":
+        KAALa40 = true;
+        break;
+    case "22":
+        KAALa40 = true;
+        break;
+    case "23":
+        KAALa40 = true;
+        break;
+    case "24":
+        KAALa40 = true;
+        break;
+    case "25":
+        KAALa40 = true;
+        break;
+    case "26":
+        KAALa40 = true;
+        break;
+    case "27":
+        KAALa40 = true;
+        break;
+    case "28":
+        KAALa40 = true;
+        break;
+    case "29":
+        KAALa40 = true;
+        break;
+    case "30":
+        KAALa40 = true;
+        break;
+    case "31":
+        KAALa40 = true;
+        break;
+    case "32":
+        KAALa40 = true;
+        break;
+    case "33":
+        KAALa40 = true;
+        break;
+    case "34":
+        KAALa40 = true;
+        break;
+    case "35":
+        KAALa40 = true;
+        break;
+    case "36":
+        KAALa40 = true;
+        break;
+    case "37":
+        KAALa40 = true;
+        break;
+    case "38":
+        KAALa40 = true;
+        break;
+    case "39":
+        KAALa40 = true;
+        break;
+    case "40":
+        KAALa40 = true;
+        break;
+    case "41":
+        KAAL41_50 = true;
+        break;
+    case "42":
+        KAAL41_50 = true;
+        break;
+    case "43":
+        KAAL41_50 = true;
+        break;
+    case "44":
+        KAAL41_50 = true;
+        break;
+    case "45":
+        KAAL41_50 = true;
+        break;
+    case "46":
+        KAAL41_50 = true;
+        break;
+    case "47":
+        KAAL41_50 = true;
+        break;
+    case "48":
+        KAAL41_50 = true;
+        break;
+    case "49":
+        KAAL41_50 = true;
+        break;
+    case "50":
+        KAAL41_50 = true;
+        break;
+    case "51":
+        KAAL51_60 = true;
+        break;
+    case "52":
+        KAAL51_60 = true;
+        break;
+    case "53":
+        KAAL51_60 = true;
+        break;
+    case "54":
+        KAAL51_60 = true;
+        break;
+    case "55":
+        KAAL51_60 = true;
+        break;
+    case "56":
+        KAAL51_60 = true;
+        break;
+    case "57":
+        KAAL51_60 = true;
+        break;
+    case "58":
+        KAAL51_60 = true;
+        break;
+    case "59":
+        KAAL51_60 = true;
+        break;
+    case "60":
+        KAAL51_60 = true;
+        break;
+    case "61":
+        KAAL61_70 = true;
+        break;
+    case "62":
+        KAAL61_70 = true;
+        break;
+    case "63":
+        KAAL61_70 = true;
+        break;
+    case "64":
+        KAAL61_70 = true;
+        break;
+    case "65":
+        KAAL61_70 = true;
+        break;
+    case "66":
+        KAAL61_70 = true;
+        break;
+    case "67":
+        KAAL61_70 = true;
+        break;
+    case "68":
+        KAAL61_70 = true;
+        break;
+    case "69":
+        KAAL61_70 = true;
+        break;
+    case "70":
+        KAAL61_70 = true;
+        break;
+    case "71":
+        KAAL71_80 = true;
+        break;
+    case "72":
+        KAAL71_80 = true;
+        break;
+    case "73":
+        KAAL71_80 = true;
+        break;
+    case "74":
+        KAAL71_80 = true;
+        break;
+    case "75":
+        KAAL71_80 = true;
+        break;
+    case "76":
+        KAAL71_80 = true;
+        break;
+    case "77":
+        KAAL71_80 = true;
+        break;
+    case "78":
+        KAAL71_80 = true;
+        break;
+    case "79":
+        KAAL71_80 = true;
+        break;
+    case "80":
+        KAAL71_80 = true;
+        break;
+    case "81":
+        KAAL81_90 = true;
+        break;
+    case "82":
+        KAAL81_90 = true;
+        break;
+    case "83":
+        KAAL81_90 = true;
+        break;
+    case "84":
+        KAAL81_90 = true;
+        break;
+    case "85":
+        KAAL81_90 = true;
+        break;
+    case "86":
+        KAAL81_90 = true;
+        break;
+    case "87":
+        KAAL81_90 = true;
+        break;
+    case "88":
+        KAAL81_90 = true;
+        break;
+    case "89":
+        KAAL81_90 = true;
+        break;
+    case "90":
+        KAAL81_90 = true;
+        break;
+    case "91":
+        KAAL91_100 = true;
+        break;
+    case "92":
+        KAAL91_100 = true;
+        break;
+    case "93":
+        KAAL91_100 = true;
+        break;
+    case "94":
+        KAAL91_100 = true;
+        break;
+    case "95":
+        KAAL91_100 = true;
+        break;
+    case "96":
+        KAAL91_100 = true;
+        break;
+    case "97":
+        KAAL91_100 = true;
+        break;
+    case "98":
+        KAAL91_100 = true;
+        break;
+    case "99":
+        KAAL91_100 = true;
+        break;
+    case "100":
+        KAAL91_100 = true;
+        break;
+    case "101":
+        KAAL101_110 = true;
+        break;
+    case "102":
+        KAAL101_110 = true;
+        break;
+    case "103":
+        KAAL101_110 = true;
+        break;
+    case "104":
+        KAAL101_110 = true;
+        break;
+    case "105":
+        KAAL101_110 = true;
+        break;
+    case "106":
+        KAAL101_110 = true;
+        break;
+    case "107":
+        KAAL101_110 = true;
+        break;
+    case "108":
+        KAAL101_110 = true;
+        break;
+    case "109":
+        KAAL101_110 = true;
+        break;
+    case "110":
+        KAAL101_110 = true;
+        break;
+    case "111":
+        KAAL111_120 = true;
+        break;
+    case "112":
+        KAAL111_120 = true;
+        break;
+    case "113":
+        KAAL111_120 = true;
+        break;
+    case "114":
+        KAAL111_120 = true;
+        break;
+    case "115":
+        KAAL111_120 = true;
+        break;
+    case "116":
+        KAAL111_120 = true;
+        break;
+    case "117":
+        KAAL111_120 = true;
+        break;
+    case "118":
+        KAAL111_120 = true;
+        break;
+    case "119":
+        KAAL111_120 = true;
+        break;
+    case "120":
+        KAAL111_120 = true;
+        break;
+    case "121":
+        KAAL121_130 = true;
+        break;
+    case "122":
+        KAAL121_130 = true;
+        break;
+    case "123":
+        KAAL121_130 = true;
+        break;
+    case "124":
+        KAAL121_130 = true;
+        break;
+    case "125":
+        KAAL121_130 = true;
+        break;
+    case "126":
+        KAAL121_130 = true;
+        break;
+    case "127":
+        KAAL121_130 = true;
+        break;
+    case "128":
+        KAAL121_130 = true;
+        break;
+    case "129":
+        KAAL121_130 = true;
+        break;
+    case "130":
+        KAAL121_130 = true;
+        break;
+    default:
+        KAAL121_130 = true;
+        console.log("WROONG, KAAL");
+        break;
+}
+/* Switch funktsioon, mis paneb paika küsitletava vanuse tulevaseks kasutamiseks */
+switch(V){
+    case "1":
+        VANUS1 = true;
+        break;
+    case "2":
+        VANUS2 = true;
+        break;
+    case "3":
+        VANUS3 = true;
+        break;
+    case "4":
+        VANUS4 = true;
+        break;
+    case "5":
+        VANUS5 = true;
+        break;
+    case "6":
+        VANUS6 = true;
+        break;
+    case "7":
+        VANUS7 = true;
+        break;
+    case "8":
+        VANUS8 = true;
+        break;
+    case "9":
+        VANUS9 = true;
+        break;
+    case "10":
+        VANUS10 = true;
+        break;
+    case "11":
+        VANUS11 = true;
+        break;
+    case "12":
+        VANUS12 = true;
+        break;
+    case "13":
+        VANUS13 = true;
+        break;
+    case "14":
+        VANUS14 = true;
+        break;
+    case "15":
+        VANUS15 = true;
+        break;
+    case "16":
+        VANUS16 = true;
+        break;
+    case "17":
+        VANUS17 = true;
+        break;
+    default:
+    VANUSü18 = true;
+}
+/*Switch funktsioon panemaks paika küsitlevatava pikkuse*/
+switch(P){
+    case "1":
+        PIKKUSa160 = true;
+        break;
+    case "2":
+        PIKKUSa160 = true;
+        break;
+    case "3":
+        PIKKUSa160 = true;
+        break;
+    case "4":
+        PIKKUSa160 = true;
+        break;
+    case "5":
+        PIKKUSa160 = true;
+        break;
+    case "6":
+        PIKKUSa160 = true;
+        break;
+    case "7":
+        PIKKUSa160 = true;
+        break;
+    case "8":
+        PIKKUSa160 = true;
+        break;
+    case "9":
+        PIKKUSa160 = true;
+        break;
+    case "10":
+        PIKKUSa160 = true;
+        break;
+    case "11":
+        PIKKUSa160 = true;
+        break;
+    case "12":
+        PIKKUSa160 = true;
+        break;
+    case "13":
+        PIKKUSa160 = true;
+        break;
+    case "14":
+        PIKKUSa160 = true;
+        break;
+    case "15":
+        PIKKUSa160 = true;
+        break;
+    case "16":
+        PIKKUSa160 = true;
+        break;
+    case "17":
+        PIKKUSa160 = true;
+        break;
+    case "18":
+        PIKKUSa160 = true;
+        break;
+    case "19":
+        PIKKUSa160 = true;
+        break;
+    case "20":
+        PIKKUSa160 = true;
+        break;
+    case "21":
+        PIKKUSa160 = true;
+        break;
+    case "22":
+        PIKKUSa160 = true;
+        break;
+    case "23":
+        PIKKUSa160 = true;
+        break;
+    case "24":
+        PIKKUSa160 = true;
+        break;
+    case "25":
+        PIKKUSa160 = true;
+        break;
+    case "26":
+        PIKKUSa160 = true;
+        break;
+    case "27":
+        PIKKUSa160 = true;
+        break;
+    case "28":
+        PIKKUSa160 = true;
+        break;
+    case "29":
+        PIKKUSa160 = true;
+        break;
+    case "30":
+        PIKKUSa160 = true;
+        break;
+    case "31":
+        PIKKUSa160 = true;
+        break;
+    case "32":
+        PIKKUSa160 = true;
+        break;
+    case "33":
+        PIKKUSa160 = true;
+        break;
+    case "34":
+        PIKKUSa160 = true;
+        break;
+    case "35":
+        PIKKUSa160 = true;
+        break;
+    case "36":
+        PIKKUSa160 = true;
+        break;
+    case "37":
+        PIKKUSa160 = true;
+        break;
+    case "38":
+        PIKKUSa160 = true;
+        break;
+    case "39":
+        PIKKUSa160 = true;
+        break;
+    case "40":
+        PIKKUSa160 = true;
+        break;
+    case "41":
+        PIKKUSa160 = true;
+        break;
+    case "42":
+        PIKKUSa160 = true;
+        break;
+    case "43":
+        PIKKUSa160 = true;
+        break;
+    case "44":
+        PIKKUSa160 = true;
+        break;
+    case "45":
+        PIKKUSa160 = true;
+        break;
+    case "46":
+        PIKKUSa160 = true;
+        break;
+    case "47":
+        PIKKUSa160 = true;
+        break;
+    case "48":
+        PIKKUSa160 = true;
+        break;
+    case "49":
+        PIKKUSa160 = true;
+        break;
+    case "50":
+        PIKKUSa160 = true;
+        break;
+    case "51":
+        PIKKUSa160 = true;
+        break;
+    case "52":
+        PIKKUSa160 = true;
+        break;
+    case "53":
+        PIKKUSa160 = true;
+        break;
+    case "54":
+        PIKKUSa160 = true;
+        break;
+    case "55":
+        PIKKUSa160 = true;
+        break;
+    case "56":
+        PIKKUSa160 = true;
+        break;
+    case "57":
+        PIKKUSa160 = true;
+        break;
+    case "58":
+        PIKKUSa160 = true;
+        break;
+    case "59":
+        PIKKUSa160 = true;
+        break;
+    case "60":
+        PIKKUSa160 = true;
+        break;
+    case "61":
+        PIKKUSa160 = true;
+        break;
+    case "62":
+        PIKKUSa160 = true;
+        break;
+    case "63":
+        PIKKUSa160 = true;
+        break;
+    case "64":
+        PIKKUSa160 = true;
+        break;
+    case "65":
+        PIKKUSa160 = true;
+        break;
+    case "66":
+        PIKKUSa160 = true;
+        break;
+    case "67":
+        PIKKUSa160 = true;
+        break;
+    case "68":
+        PIKKUSa160 = true;
+        break;
+    case "69":
+        PIKKUSa160 = true;
+        break;
+    case "70":
+        PIKKUSa160 = true;
+        break;
+    case "71":
+        PIKKUSa160 = true;
+        break;
+    case "72":
+        PIKKUSa160 = true;
+        break;
+    case "73":
+        PIKKUSa160 = true;
+        break;
+    case "74":
+        PIKKUSa160 = true;
+        break;
+    case "75":
+        PIKKUSa160 = true;
+        break;
+    case "76":
+        PIKKUSa160 = true;
+        break;
+    case "77":
+        PIKKUSa160 = true;
+        break;
+    case "78":
+        PIKKUSa160 = true;
+        break;
+    case "79":
+        PIKKUSa160 = true;
+        break;
+    case "80":
+        PIKKUSa160 = true;
+        break;
+    case "81":
+        PIKKUSa160 = true;
+        break;
+    case "82":
+        PIKKUSa160 = true;
+        break;
+    case "83":
+        PIKKUSa160 = true;
+        break;
+    case "84":
+        PIKKUSa160 = true;
+        break;
+    case "85":
+        PIKKUSa160 = true;
+        break;
+    case "86":
+        PIKKUSa160 = true;
+        break;
+    case "87":
+        PIKKUSa160 = true;
+        break;
+    case "88":
+        PIKKUSa160 = true;
+        break;
+    case "89":
+        PIKKUSa160 = true;
+        break;
+    case "90":
+        PIKKUSa160 = true;
+        break;
+    case "91":
+        PIKKUSa160 = true;
+        break;
+    case "92":
+        PIKKUSa160 = true;
+        break;
+    case "93":
+        PIKKUSa160 = true;
+        break;
+    case "94":
+        PIKKUSa160 = true;
+        break;
+    case "95":
+        PIKKUSa160 = true;
+        break;
+    case "96":
+        PIKKUSa160 = true;
+        break;
+    case "97":
+        PIKKUSa160 = true;
+        break;
+    case "98":
+        PIKKUSa160 = true;
+        break;
+    case "99":
+        PIKKUSa160 = true;
+        break;
+    case "100":
+        PIKKUSa160 = true;
+        break;
+    case "101":
+        PIKKUSa160 = true;
+        break;
+    case "102":
+        PIKKUSa160 = true;
+        break;
+    case "103":
+        PIKKUSa160 = true;
+        break;
+    case "104":
+        PIKKUSa160 = true;
+        break;
+    case "105":
+        PIKKUSa160 = true;
+        break;
+    case "106":
+        PIKKUSa160 = true;
+        break;
+    case "107":
+        PIKKUSa160 = true;
+        break;
+    case "108":
+        PIKKUSa160 = true;
+        break;
+    case "109":
+        PIKKUSa160 = true;
+        break;
+    case "110":
+        PIKKUSa160 = true;
+        break;
+    case "111":
+        PIKKUSa160 = true;
+        break;
+    case "112":
+        PIKKUSa160 = true;
+        break;
+    case "113":
+        PIKKUSa160 = true;
+        break;
+    case "114":
+        PIKKUSa160 = true;
+        break;
+    case "115":
+        PIKKUSa160 = true;
+        break;
+    case "116":
+        PIKKUSa160 = true;
+        break;
+    case "117":
+        PIKKUSa160 = true;
+        break;
+    case "118":
+        PIKKUSa160 = true;
+        break;
+    case "119":
+        PIKKUSa160 = true;
+        break;
+    case "120":
+        PIKKUSa160 = true;
+        break;
+    case "121":
+        PIKKUSa160 = true;
+        break;
+    case "122":
+        PIKKUSa160 = true;
+        break;
+    case "123":
+        PIKKUSa160 = true;
+        break;
+    case "124":
+        PIKKUSa160 = true;
+        break;
+    case "125":
+        PIKKUSa160 = true;
+        break;
+    case "126":
+        PIKKUSa160 = true;
+        break;
+    case "127":
+        PIKKUSa160 = true;
+        break;
+    case "128":
+        PIKKUSa160 = true;
+        break;
+    case "129":
+        PIKKUSa160 = true;
+        break;
+    case "130":
+        PIKKUSa160 = true;
+        break;
+    case "131":
+        PIKKUSa160 = true;
+        break;
+    case "132":
+        PIKKUSa160 = true;
+        break;
+    case "133":
+        PIKKUSa160 = true;
+        break;
+    case "134":
+        PIKKUSa160 = true;
+        break;
+    case "135":
+        PIKKUSa160 = true;
+        break;
+    case "136":
+        PIKKUSa160 = true;
+        break;
+    case "137":
+        PIKKUSa160 = true;
+        break;
+    case "138":
+        PIKKUSa160 = true;
+        break;
+    case "139":
+        PIKKUSa160 = true;
+        break;
+    case "140":
+        PIKKUSa160 = true;
+        break;
+    case "141":
+        PIKKUSa160 = true;
+        break;
+    case "142":
+        PIKKUSa160 = true;
+        break;
+    case "143":
+        PIKKUSa160 = true;
+        break;
+    case "144":
+        PIKKUSa160 = true;
+        break;
+    case "145":
+        PIKKUSa160 = true;
+        break;
+    case "146":
+        PIKKUSa160 = true;
+        break;
+    case "147":
+        PIKKUSa160 = true;
+        break;
+    case "148":
+        PIKKUSa160 = true;
+        break;
+    case "149":
+        PIKKUSa160 = true;
+        break;
+    case "150":
+        PIKKUSa160 = true;
+        break;
+    case "151":
+        PIKKUSa160 = true;
+        break;
+    case "152":
+        PIKKUSa160 = true;
+        break;
+    case "153":
+        PIKKUSa160 = true;
+        break;
+    case "154":
+        PIKKUSa160 = true;
+        break;
+    case "155":
+        PIKKUSa160 = true;
+        break;
+    case "156":
+        PIKKUSa160 = true;
+        break;
+    case "157":
+        PIKKUSa160 = true;
+        break;
+    case "158":
+        PIKKUSa160 = true;
+        break;
+    case "159":
+        PIKKUSa160 = true;
+        break;
+    case "160":
+        PIKKUSa160 = true;
+        break;
+    case "161":
+        PIKKUS161_170 = true;
+        break;
+    case "162":
+        PIKKUS161_170 = true;
+        break;
+    case "163":
+        PIKKUS161_170 = true;
+        break;
+    case "164":
+        PIKKUS161_170 = true;
+        break;
+    case "165":
+        PIKKUS161_170 = true;
+        break;
+    case "166":
+        PIKKUS161_170 = true;
+        break;
+    case "167":
+        PIKKUS161_170 = true;
+        break;
+    case "168":
+        PIKKUS161_170 = true;
+        break;
+    case "169":
+        PIKKUS161_170 = true;
+        break;
+    case "170":
+        PIKKUS161_170 = true;
+        break;
+    case "171":
+        PIKKUS171_180 = true;
+        break;
+    case "171":
+        PIKKUS171_180 = true;
+        break;
+    case "171":
+        PIKKUS171_180 = true;
+        break;
+    case "172":
+        PIKKUS171_180 = true;
+        break;
+    case "173":
+        PIKKUS171_180 = true;
+        break;
+    case "174":
+        PIKKUS171_180 = true;
+        break;
+    case "175":
+        PIKKUS171_180 = true;
+        break;
+    case "176":
+        PIKKUS171_180 = true;
+        break;
+    case "177":
+        PIKKUS171_180 = true;
+        break;
+    case "178":
+        PIKKUS171_180 = true;
+        break;
+    case "179":
+        PIKKUS171_180 = true;
+        break;
+    case "180":
+        PIKKUS171_180 = true;
+        break;
+    case "181":
+        PIKKUS181_190 = true;
+        break;
+    case "182":
+        PIKKUS181_190 = true;
+        break;
+    case "183":
+        PIKKUS181_190 = true;
+        break;
+    case "184":
+        PIKKUS181_190 = true;
+        break;
+    case "185":
+        PIKKUS181_190 = true;
+        break;
+    case "186":
+        PIKKUS181_190 = true;
+        break;
+    case "187":
+        PIKKUS181_190 = true;
+        break;
+    case "188":
+        PIKKUS181_190 = true;
+        break;
+    case "189":
+        PIKKUS181_190 = true;
+        break;
+    case "190":
+        PIKKUS181_190 = true;
+        break;
+    case "191":
+        PIKKUS191_200 = true;
+        break;
+    case "192":
+        PIKKUS191_200 = true;
+        break;
+    case "193":
+        PIKKUS191_200 = true;
+        break;
+    case "194":
+        PIKKUS191_200 = true;
+        break;
+    case "195":
+        PIKKUS191_200 = true;
+        break;
+    case "196":
+        PIKKUS191_200 = true;
+        break;
+    case "197":
+        PIKKUS191_200 = true;
+        break;
+    case "198":
+        PIKKUS191_200 = true;
+        break;
+    case "199":
+        PIKKUS191_200 = true;
+        break;
+    case "200":
+        PIKKUS191_200 = true;
+        break;
+    case "201":
+        PIKKUS200_210 = true;
+        break;
+    case "202":
+        PIKKUS200_210 = true;
+        break;
+    case "203":
+        PIKKUS200_210 = true;
+        break;
+    case "204":
+        PIKKUS200_210 = true;
+        break;
+    case "205":
+        PIKKUS200_210 = true;
+        break;
+    case "206":
+        PIKKUS200_210 = true;
+        break;
+    case "207":
+        PIKKUS200_210 = true;
+        break;
+    case "208":
+        PIKKUS200_210 = true;
+        break;
+    case "209":
+        PIKKUS200_210 = true;
+        break;
+    case "210":
+        PIKKUS200_210 = true;
+        break;
+    default:
+    PIKKUSü210 = true;
+    console.log("SUMTING WENT WRUNGLENGHT");
+}
+if ( KAAL91_100 === true && VANUSü18 === true && PIKKUS181_190 === true){
+    SSEkvp = true;
+}
+if ( KAAL81_90 ===true && VANUSü18 === true){
+    RATTAkv = true;
+}
+if ( PIKKUS181_190 === true || PIKKUS191_200 === true ){
+    RATTAp = true;
+}
+if ( RATTAp === true && RATTAkv === true ){
+    RATTAkvp = true;
+}
+if ( KAAL81_90 === true && PIKKUS171_180 === true){
+    KARATEkvp = true;
+}
+//SÕUDMINE O1, O4, O10, O11 + OK5
+if ( O1 === true || O4 === true || O10 === true || O11 === true){
+    SSEo = true;
+}
+if ( OK5 === true){
+    SSEok = true;
+}
+if ( SSEo === true || SSEok === true){
+    SSEoko = true;
+}
+if ( SSEoko === true && SSEkvp === true ){
+    alert("Teile sobiks sõudmine!");
+}
+//RATTA O1, O3, O9, O12 + OK1
+if ( O1 === true || O3 === true || O9 === true || O12 === true){
+    RATTAo = true;
+}
+if ( OK1 === true){
+    RATTAok = true;
+}
+if ( RATTAo === true || RATTAok === true ){
+    RATTAoko = true;
+}
+if ( RATTAoko === true && RATTAkvp === true){
+    alert("Teile sobiks rattasport!");
+}
+//KARATE O6, O11, O12 + OK7 
+if ( O6 === true || O11 === true || O12 === true ){
+    KARATEo = true;
+}
+if ( OK7 === true ){
+    KARATEok = true;
+}
+if ( KARATEo === true || KARATEok === true){
+    KARATEoko = true;
+}
+if ( KARATEoko === true && KARATEkvp === true){
+    alert("Teile sobiks karate!");
+}
